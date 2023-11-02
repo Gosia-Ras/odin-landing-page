@@ -15,6 +15,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -72,12 +73,20 @@ header.main-header {
 header.main-header p.header-logo {
   font-size: 24px;
   color: var(--grey-primary);
+  font-weight: 700;
 }
 
-header.main-header div a.link-item {
-  color: var(--grey-primary);
+header.main-header div.header-links a.link-item {
+  color: var(--grey-secondary);
   text-decoration: none;
   margin-right: 15px;
+  transition: all 300ms ease-out;
+  display: inline-block;
+  font-size: 18px;
+}
+
+header.main-header div.header-links a.link-item:hover {
+  transform: translateY(-5px);
 }
 
 /* HERO */
