@@ -212,6 +212,11 @@ section.testimonial-section
 
 /* CALL TO ACTION */
 
+section.action-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
 section.action-section div.action-content {
   background-color: var(--blue-secondary);
   padding: 50px 150px;
