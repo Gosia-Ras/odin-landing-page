@@ -14,13 +14,13 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
   scroll-behavior: smooth;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 section {
@@ -58,8 +58,6 @@ button {
 button:hover {
   background-color: var(--blue-hover);
 }
-
-/* END GENERAL STYLING */
 
 /* HEADER */
 
@@ -166,7 +164,7 @@ section.courses-section div.courses-grid div.course-item div.course-subtext h3 {
 }
 
 section.courses-section div.courses-grid div.course-item img.course-image {
-  background-size: contain;
+  object-fit: cover;
   border: var(--border-width--3) solid var(--blue-secondary);
   border-radius: var(--border-rounded);
   margin-bottom: 10px;
