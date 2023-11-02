@@ -218,6 +218,18 @@ section.action-section div.action-content {
   background-color: var(--blue-secondary);
   padding: 50px 150px;
   border-radius: var(--border-rounded);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+section.action-section div.action-content div.action-text {
+  color: var(--grey-secondary);
+}
+
+section.action-section div.action-content div.action-text h3 {
+  letter-spacing: 0.08rem;
 }
 
 section.action-section button.action-btn {
